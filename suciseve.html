@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="intro.css">
+    <script src="intro.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <menu>
+        <div class="row">
+            <ul>
+                <li id="menu-items-1"><a href="./intro.html">HOME </a></li>
+                <li id="menu-items-2"><a href="#">OFFICE</a></li>
+                <li id="menu-items-3"><a href="#">GALARY</a></li>
+                <li id="menu-items-4"><a href="#">RTI</a></li>
+                <li id="menu-items-5"><a href="#">AICTE</a></li>
+                <li id="menu-items-5"><a href="http://aptosakkd.com/index.html">ALUMINI</a></li>
+                <li id="menu-items-6"><a href="#">CAMPUS LIFE</a></li>
+                <li id="menu-items-7"><a href="./contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+      </menu>
+    
+    <div id="datetime"></div>
+     
+            <div class="logo">
+                <img src="./logo (1).jpg" alt="" height="60%" width="40%">
+                
+
+            </div>
+            
+
+
+    </header> 
+  
+   
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="navbar">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                ABOUT
+              </a>
+              <ul class="dropdown-menu">
+                  <li id="menu-items-9"><a href="./about.html">ABOUT COLLEGE</a></li>
+                  <li id="menu-items-10"><a href="./prinicipal.html">PRINCIPAL'S MESSAGE</a></li>
+                  <li id="menu-items-11"><a href="./suciseve.html">SUCCESSIVE  PRINCIPALS</a></li>
+              
+                <li class="nav-item dropend">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    COMMITTEES
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li><a href="#">ANTI-RAGGING </a></li>
+                      <li><a href="./griviance.html">GRIEVENCE-CELL</a></li>
+                      <li><a href="#">TRANNING AND PLACEMENTS</a></li>
+                  </ul>
+                </li>
+                <li id="menu-items-16"><a href="./fee.html">FEE STRUCTURE</a></li>
+              </ul>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                DEPARTMENTS
+              </a>
+             <ul class="dropdown-menu">
+              <li id="menu-items-24"><a href="#">AUTOMOBILE ENGINEERING</a></li>
+              <li id="menu-items-25"><a href="#">ARCHITECTURE ENGINEERING</a></li>
+              <li id="menu-items-26"><a href="#">CIVIL ENGINEERING</a></li>
+              <li id="menu-items-"><a href="./department.html">COMPUTER ENGINEERING</a></li>
+              <li id="menu-items-"><a href="">ELECTRONICS AND COMMUNICATION ENGINEERING</a></li>
+              <li id="menu-items-"><a href="">ELECTRICAL AND ELECTRONICS ENGINEERING</a></li>
+              <li id="menu-items-"><a href="">MECHANICAL ENGINEERING</a></li>
+              <li id="menu-items-"><a href="">GENERAL</a></li>
+             </ul>
+
+          </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="./admission.html">ADMISSION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ">RESULTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ">PLACEMENTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ">EVENTS AND SPORTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ">ACHIVEMENTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ">EXAMINATIONS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ">ANNOUNCEMENTS</a>
+            </li>
+          
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                LOGIN/SIGNUP
+              </a>
+             <ul class="dropdown-menu">
+               <li id="menu-items-"><a href="">ADMIN LOGIN</a></li>
+               <li id="menu-items-"><a href="">FACULTY LOGIN</a></li>
+               <li id="menu-items-"><a href="">STUDENT LOGIN</a></li>
+             </ul>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+     
+<style>
+  .data-table {
+    border-collapse:no-collapse;
+    width: 80%;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border: 2px solid lightblue;
+  }
+  
+  .data-table th, .data-table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .data-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .data-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .data-table th, .data-table td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .data-table th:last-child, .data-table td:last-child {
+    border-right: none;
+  }
+  th{
+    color: rgb(0, 183, 255);
+    font-size: 20px;
+  }
+  </style>
+<title>Table Example</title>
+</head>
+<body> 
+    <h3 align="center" style="margin-top: 20px;"><b> SUCCESSIVE PRINCIPALS LIST </b></h3>
+<table class="data-table" align="center">
+   
+  <thead>
+    <tr>
+      <th>SNO</th>
+      <th>Name</th>
+      <th>From</th>
+      <th>To</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Sri J.SREERAMA MURTHY</td>
+      <td>1946</td>
+      <td>1953</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Dr.P.B.R.MURTHY</td>
+        <td>1953</td>
+        <td>1961</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Sri P.H.N.B.SARMA</td>
+        <td>1961</td>
+        <td>1972</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Sri V.PRAHLAD</td>
+        <td>1972</td>
+        <td>1973</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Sri P.VEERA RAQJU</td>
+        <td>1973</td>
+        <td>1976</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Sri S.R.RAO</td>
+        <td>28/07/1976</td>
+        <td>05-03-1982</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Sri M.SESHA PAHNI</td>
+        <td>31/08/1980</td>
+        <td>05-03-1982</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Sri K.S.R.BHASKAR</td>
+        <td>05-04-1982</td>
+        <td>04-07-1982</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Sri D.KRISHNA MURTHY</td>
+        <td>04-08-1983</td>
+        <td>08-11-1985</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Sri D.RAMA RAO</td>
+        <td>08-12-1985</td>
+        <td>10-02-1985</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>Sri A.S.R.MURTHY</td>
+        <td>10-02-1985</td>
+        <td>13/07/1990</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>Sri M.SARAVARAYUDU</td>
+        <td>14/07/1990</td>
+        <td>31/08/1991</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>Sri V.S.S.RAJU</td>
+        <td>09-01-1991</td>
+        <td>11-01-1991</td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>Sri K.VALIA SAHEB</td>
+        <td>11-02-1991</td>
+        <td>30/06/1993</td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>Sri V.V.REDDY</td>
+        <td>07-01-1993</td>
+        <td>01-12-1994</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>Sri V.S.S.RAJU</td>
+        <td>13/01/1994</td>
+        <td>31/03/1996</td>
+      </tr>
+      <tr>
+        <td>17</td>
+        <td>Sri K.SURYANARAYANA</td>
+        <td>04-01-1994</td>
+        <td>28/02/1998</td>
+      </tr>
+      <tr>
+        <td>18</td>
+        <td>Sri V.VL.N.MURTHY</td>
+        <td>03-01-1998</td>
+        <td>26/05/1998</td>
+      </tr>
+      <tr>
+        <td>19</td>
+        <td>Sri K.KRISHNA MURTHY</td>
+        <td>27/05/1998</td>
+        <td>4/10/1998</td>
+      </tr>
+      <tr>
+        <td>20</td>
+        <td>Sri BH.PRASADA RAO</td>
+        <td>10-05-1998</td>
+        <td>28/07/2002</td>
+      </tr>
+      <tr>
+        <td>21</td>
+        <td>Sri K.SRIKRISHNA</td>
+        <td>29/07/2002</td>
+        <td>30/06/2004</td>
+      </tr>
+      <tr>
+        <td>22</td>
+        <td>Sri V.V.L.N.MURTHY</td>
+        <td>07-01-2004</td>
+        <td>23/07/2004</td>
+      </tr>
+      <tr>
+        <td>23</td>
+        <td>Sri K.MANIKYALA RAO</td>
+        <td>24/07/2004</td>
+        <td>30/07/2004</td>
+      </tr>
+      <tr>
+        <td>24</td>
+        <td>Sri V.V.L.N.MURTHY</td>
+        <td>08-01-2004</td>
+        <td>07-03-2005</td>
+      </tr>
+      <tr>
+        <td>25</td>
+        <td>Sri SMT V.ARUNA REKHA</td>
+        <td>07-04-2005</td>
+        <td>02-02-2007</td>
+      </tr>
+      <tr>
+        <td>26</td>
+        <td>Sri B.K.SURYA PRAKASH</td>
+        <td>_____</td>
+        <td>_____</td>
+      </tr>
+      <tr>
+        <td>27</td>
+        <td>Sri K.S.VARAPRASAD</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>28</td>
+        <td>Sri C.S.SRINIVAS</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>29</td>
+        <td>Sri M.VENKATESWARA RAO</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>30</td>
+        <td>Sri M.DASU</td>
+        <td></td>
+        <td></td>
+      </tr>  
+      <tr>
+        <td>31</td>
+        <td>Sri N.JANARDHANA RAO</td>
+        <td></td>
+        <td></td>
+      </tr>                                                  
+    <!-- Add more rows as needed -->
+</tbody>
+</table> 
+
+
+        <footer>
+            <div class="wrapper">
+              <p>Copyright © 2023 <a href="#">Andhra Politecnic college, Kakinada</a>. All Rights Reserved<span> | </span>
+Supported By by <a href="http://www.vellankisoftech.in/" rel="designer" target="_blank">Vellanki Softech</a>				</p>
+  </div> 
+</footer>
+
+        
+</body>
+</html>
+<!--<style>body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .data-table {
+    border-collapse:NO-collapse;
+    width: 80%;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .data-table th, .data-table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .data-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .data-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .data-table th, .data-table td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .data-table th:last-child, .data-table td:last-child {
+    border-right: none;
+  }
+  </style>
+<title>Table Example</title>
+</head>
+<body>
+<table class="data-table">
+    <caption><center><b><h1>SUCCESSIVE PRINCIPALS LIST</h1></b></center></caption>
+  <thead>
+    <tr>
+      <th>SNO</th>
+      <th>Name</th>
+      <th>From</th>
+      <th>To</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Sri J.SREERAMA MURTHY</td>
+      <td>1946</td>
+      <td>1953</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Dr.P.B.R.MURTHY</td>
+        <td>1953</td>
+        <td>1961</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Sri P.H.N.B.SARMA</td>
+        <td>1961</td>
+        <td>1972</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Sri V.PRAHLAD</td>
+        <td>1972</td>
+        <td>1973</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Sri P.VEERA RAQJU</td>
+        <td>1973</td>
+        <td>1976</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Sri S.R.RAO</td>
+        <td>28/07/1976</td>
+        <td>05-03-1982</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Sri M.SESHA PAHNI</td>
+        <td>31/08/1980</td>
+        <td>05-03-1982</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Sri K.S.R.BHASKAR</td>
+        <td>05-04-1982</td>
+        <td>04-07-1982</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Sri D.KRISHNA MURTHY</td>
+        <td>04-08-1983</td>
+        <td>08-11-1985</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Sri D.RAMA RAO</td>
+        <td>08-12-1985</td>
+        <td>10-02-1985</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>Sri A.S.R.MURTHY</td>
+        <td>10-02-1985</td>
+        <td>13/07/1990</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>Sri M.SARAVARAYUDU</td>
+        <td>14/07/1990</td>
+        <td>31/08/1991</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>Sri V.S.S.RAJU</td>
+        <td>09-01-1991</td>
+        <td>11-01-1991</td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>Sri K.VALIA SAHEB</td>
+        <td>11-02-1991</td>
+        <td>30/06/1993</td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>Sri V.V.REDDY</td>
+        <td>07-01-1993</td>
+        <td>01-12-1994</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>Sri V.S.S.RAJU</td>
+        <td>13/01/1994</td>
+        <td>31/03/1996</td>
+      </tr>
+      <tr>
+        <td>17</td>
+        <td>Sri K.SURYANARAYANA</td>
+        <td>04-01-1994</td>
+        <td>28/02/1998</td>
+      </tr>
+      <tr>
+        <td>18</td>
+        <td>Sri V.VL.N.MURTHY</td>
+        <td>03-01-1998</td>
+        <td>26/05/1998</td>
+      </tr>
+      <tr>
+        <td>19</td>
+        <td>Sri K.KRISHNA MURTHY</td>
+        <td>27/05/1998</td>
+        <td>4/10/1998</td>
+      </tr>
+      <tr>
+        <td>20</td>
+        <td>Sri BH.PRASADA RAO</td>
+        <td>10-05-1998</td>
+        <td>28/07/2002</td>
+      </tr>
+      <tr>
+        <td>21</td>
+        <td>Sri K.SRIKRISHNA</td>
+        <td>29/07/2002</td>
+        <td>30/06/2004</td>
+      </tr>
+      <tr>
+        <td>22</td>
+        <td>Sri V.V.L.N.MURTHY</td>
+        <td>07-01-2004</td>
+        <td>23/07/2004</td>
+      </tr>
+      <tr>
+        <td>23</td>
+        <td>Sri K.MANIKYALA RAO</td>
+        <td>24/07/2004</td>
+        <td>30/07/2004</td>
+      </tr>
+      <tr>
+        <td>24</td>
+        <td>Sri V.V.L.N.MURTHY</td>
+        <td>08-01-2004</td>
+        <td>07-03-2005</td>
+      </tr>
+      <tr>
+        <td>25</td>
+        <td>Sri SMT V.ARUNA REKHA</td>
+        <td>07-04-2005</td>
+        <td>02-02-2007</td>
+      </tr>
+      <tr>
+        <td>26</td>
+        <td>Sri B.K.SURYA PRAKASH</td>
+        <td>_____</td>
+        <td>_____</td>
+      </tr>
+      <tr>
+        <td>27</td>
+        <td>Sri K.S.VARAPRASAD</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>28</td>
+        <td>Sri C.S.SRINIVAS</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>29</td>
+        <td>Sri M.VENKATESWARA RAO</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>30</td>
+        <td>Sri M.DASU</td>
+        <td></td>
+        <td></td>
+      </tr>  
+      <tr>
+        <td>31</td>
+        <td>Sri N.JANARDHANA RAO</td>
+        <td></td>
+        <td></td>
+      </tr>                                                  
+    <!-- Add more rows as needed -->
+  </tbody>
+</table> -->
