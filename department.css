@@ -1,0 +1,260 @@
+menu {
+    background-color: #367cd7;
+    overflow: hidden;
+    
+}
+  
+menu li {
+    float: left;
+}
+  
+menu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 12px 10px;
+    text-decoration: none;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 20px;
+}
+  
+menu  li a:hover {
+    color: rgb(17, 18, 18);
+    text-decoration: none;
+    
+}
+  
+menu li ul {
+    position: relative;
+    background-color: #f6f8fa;
+    min-width: 160px;
+    text-align:right ;
+
+}
+    
+nav li ul li a:hover {
+    background-color: #27dfec;
+    text-decoration: none;
+   
+}
+  
+.logo{
+    text-align: center;
+}
+
+nav menu {
+    margin: 0 ;
+    padding: 120px 0 0 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+menu ul li {
+      list-style: none;
+      margin: 0 auto;
+      border-left: 2px solid #3ca0e7;
+      padding: 0 30px;
+      position: relative;
+      text-decoration: none;
+      text-align: center;
+      font-family: arvo;
+}
+
+li a {
+      color: black;
+}
+
+li a:hover {
+      color: #3ca0e7;
+}
+
+li:hover {
+      cursor: pointer;
+}
+
+
+.dropdown:hover > .dropdown-menu,
+.dropend:hover > .dropdown-menu {
+  display: block;
+  margin-top: 0.125em;
+  margin-left: 0.125em;
+}
+.dropend:hover > .dropdown-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+  }
+  ul, li, a {
+    margin: 0;
+    padding: 0px 15px;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.navbar {
+    background-color: #0a0168;
+    height: 50px;
+    width: 100%;
+    padding: 15px 15px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+
+}
+
+ li {
+   
+    color: #ffffff;
+}
+
+.navbar li a {
+    display: block;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-size: small;
+    text-decoration: none;
+   
+    
+}
+
+ .navbar li:hover .dropdown {
+    display: inline-block;
+    position: relative;
+    z-index: 1; 
+      
+}
+
+
+.dropdown li a {
+    padding: 3px 10px;
+    transition: padding 0.2 sec;
+    color: black;
+    font-size: small;
+}
+
+.dropdown li a:hover {
+    background-color: rgb(43, 128, 226);
+    color:white;
+}
+.dropdown ul li a{
+    font-display: inherit;
+   
+
+}
+ul li:hover > ul,
+ul li ul:hover {
+      visibility: visible;
+      opacity: 1;
+      display:inline-block;
+      min-width: 250px;
+      text-align: left;
+      padding-top: 20px;
+      box-shadow: 0px 3px 5px -1px #ccc;
+}
+ul li ul li {
+    clear: both;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    border-style: none;
+}
+
+ul li ul li a:hover {
+    padding-left: 10px;
+    border-left: 2px solid #3ca0e7;
+    transition: all 0.3s ease;
+}
+
+li:hover {
+    cursor: pointer;
+    color: white;
+}
+
+a {
+text-decoration: none;
+}
+a:hover {
+  color: #3ca0e7;
+}
+
+
+ul li ul li a {
+transition: all 0.5s ease;
+display: inline-block;
+}
+.navbar-nav .nav-link{
+    color: #fff;
+  }
+  .dropend .dropdown-toggle{
+    color: rgb(0, 0, 0);
+  }
+  
+
+#datetime {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: right;
+    color: darkviolet;
+    padding-inline-start: 10px 30px;
+}
+
+.wrapper{
+    text-align: center;
+    background-color: #27dfec;
+    padding: 10px 15px;
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+
+/*principal page*/
+.level0{
+    transition: padding 0.2 sec;
+    border:5px solid rgba(120, 120, 120);
+    margin: 10px 10px 10px 10px;
+    padding: 40px 30px;
+    background-color: whitesmoke;
+    padding-bottom: 200px;
+
+}
+.level0 :hover {
+    background-color: #367cd7;
+    color: white;
+    position: relative;
+    padding-left: 5px;
+    border-left: 1px solid #3ca0e7;
+    transition: all 0.2s ease;
+    
+    
+}
+.level0 li{
+    text-align: center;
+}
+.modtitle1{
+    color: #ab1d00;
+    text-align: center;
+}
+.mod2{
+    text-align: right;
+}
+#About1  {
+    border: 1px solid gray;
+    margin-top: 55px;
+    
+}
+#dcm img{
+    border: 1px solid gray;
+    margin-left: 400px;
+    
+}
+#dcm h3{
+    color: chocolate;
+}
+#dcm1 {
+    border: 1px solid gray;
+}
+#dcm1 p{
+    padding: 20px 20px;
+}
+
